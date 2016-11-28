@@ -52,12 +52,11 @@ ApplicationWindow {
             Emitter {
                 id: emmiter
                 system: particles
-
                 size: 36;
                 sizeVariation: 10;
-                emitRate: 20;
-                lifeSpan: 4000;
-                lifeSpanVariation: 200;
+                emitRate: 10;
+                lifeSpan: 2000;
+                //lifeSpanVariation: 200;
                 x:  pointer.width/2
                 y:  pointer_image.y
                 velocity: PointDirection {xVariation: 8; yVariation: 8;}
@@ -100,7 +99,6 @@ ApplicationWindow {
            }
        }
     }
-    property int velAngle: 0
     Rectangle {
             id: target;
             color: "transparent";
