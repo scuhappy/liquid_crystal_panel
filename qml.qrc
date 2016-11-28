@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/AutoPanel.PNG</file>
+        <file>Resources/liquid_crystal_panel.png</file>
+        <file>Resources/liquid_crystal_panel_original.png</file>
+        <file>Resources/pointer_main.png</file>
+        <file>Resources/Pointer_Yellow.png</file>
+        <file>Resources/star.png</file>
+        <file>qml/main.qml</file>
+        <file>qml/Page1.qml</file>
+        <file>qml/Page1Form.ui.qml</file>
+    </qresource>
+</RCC>
